@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width,initial-scale=1.0">
+       <title> Spotify</title>
+       <link rel="stylesheet" href="ani.css">
+       <!--<script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+<body>
+    <header>
+        <nav>
+            <h3>Music</h3>
+        </nav>
+    </header>
+    <div class="play-song">
+        <li class="song-item" >
+            <span>01</span>
+            <img src="/Ani Fil/En.png" >
+            <h5>
+                <div class="subtitle">Enna Solla</div>
+                <div class="subtitle">Anirudh Ravichandren</div>
+            </h5>
+            <i class="fa-solid playListPlay fa-play"></i>
+        </li>
+        <li class="song-item" >
+            <span>02</span>
+            <img src="/Ani Fil/NE.png" >
+            <h5>
+                <div class="subtitle">Nee Partha Vizhigal</div>
+                <div class="subtitle">Anirudh Ravichandren</div>
+            </h5>
+        
+            <i class="fa-solid playListPlay fa-play"></i>
+        </li>
+            <li class="song-item" >
+                <span>03</span>
+                <img src="/Ani Fil/Oj.png" >
+                <h5>
+                    <div class="subtitle">Oh penne</div>
+                    <div class="subtitle">Anirudh Ravichandren</div>
+                </h5>
+                <i class="fa-solid playListPlay fa-play"></i>
+            </li>
+            <li class="song-item" >
+                <span>04</span>
+                <img src="/Ani Fil/So.png" >
+                <h5>
+                    <div class="subtitle">So baby</div>
+                    <div class="subtitle">Anirudh Ravichandren</div>
+                </h5>
+                <i class="fa-solid playListPlay fa-play"></i>
+            </li>
+
+        
+       
+        <li class="song-item" >
+            <span>05</span>
+            <img src="/Ani Fil/Un.png" >
+            <h5>
+                <div class="subtitle">Un Vizhigalil</div>
+                <div class="subtitle">Anirudh Ravichandren</div>
+            </h5>
+            <i class="fa-solid playListPlay fa-play"></i>
+        </li>
+    
+    </div>
+    <div class="content">
+        <h1>Anirudh Ravichandren</h1>
+       <p>Anirudh Ravichander is a popular Indian music composer and singer known for his energetic and catchy tunes in Tamil cinema. He gained fame with his debut song "Why This Kolaveri Di" and has since delivered numerous chartbusters</p>
+       <footer>
+       
+        <div class="music-bar">
+            <span id="current-start">0.00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="current-end">3.30</span>
+        </div>
+    
+        <div class="icon">
+            <i class="fa-solid fa-shuffle"></i>
+            <i class="fa-solid fa-backward" id="back"></i>
+            <i class="fa-solid fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward" id="forward"></i>
+        </div>
+        <div class="vol">
+            <i class="fa-solid fa-volume-high" id="vol-icon"></i>
+            <div class="vol-bar">
+                <input type="range" id="vol-seek" min="0" max="100">
+                <div class="dot" id="vol-dot"></div>
+            </div>
+        </div>
+        
+    </footer>
+    
+    </div>
+    <script src="ani.js"></script>
+</body>

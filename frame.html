@@ -1,0 +1,144 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artists</title>
+    <link rel="stylesheet" href="frame.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script>
+        function updateLeftFrame(url) {
+            var frame = parent.document.getElementById("leftFrame");
+            if (frame) {
+                frame.src = url;
+            } else {
+                console.error("leftFrame not found!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="popular-artist"> 
+            
+            <div class="all-artist">
+                <div class="item">
+                    <img src="images/AR.jpg" alt="A.R. Rahman"/>
+                    <div class="playbutton">
+                        <button onclick="updateLeftFrame('AR_files/ar.html')">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <h2>A.R. Rahman</h2>
+                    <h6>Artist</h6>
+                </div>
+            </div>
+
+            <div class="all-artist">
+                <div class="item">
+                    <img src="images/Ani.jpg" alt="Anirudh"/>
+                    <div class="playbutton">
+                        <button onclick="updateLeftFrame('Ani Fil/ani.html')">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <h2>Anirudh</h2>
+                    <h6>Artist</h6>
+                </div>
+            </div>
+
+            <div class="all-artist">
+                <div class="item">
+                    <img src="images/GV.jpg" alt="G.V. Prakash"/>
+                    <div class="playbutton">
+                        <button onclick="updateLeftFrame('GV/gv.html')">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <h2>G.V. Prakash</h2>
+                    <h6>Artist</h6>
+                </div>
+            </div>
+
+            <div class="all-artist">
+                <div class="item">
+                    <img src="images/harris-jayaraj-199181bf-02d3-4567-abc0-46fcc602d42-resize-750.webp" alt="Harris Jayaraj"/>
+                    <div class="playbutton">
+                        <button onclick="updateLeftFrame('HJ/hj.html')">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <h2>Harris Jayaraj</h2>
+                    <h6>Artist</h6>
+                </div>
+            </div>
+
+            <div class="all-artist">
+                <div class="item">
+                    <img src="images/U1f.jpg" alt="Yuvan Shankar Raja"/>
+                    <div class="playbutton">
+                        <button onclick="updateLeftFrame('U1/u1.html')">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <h2>Yuvan Shankar Raja</h2>
+                    <h6>Artist</h6>
+                </div>
+            </div>
+
+            <div class="all-artist">
+                <div class="item">
+                    <img src="images/Santhosh.jpg" alt="Santhosh Narayanan"/>
+                    <div class="playbutton">
+                        <button onclick="updateLeftFrame('SN/sn.html')">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <h2>Santhosh Narayanan</h2>
+                    <h6>Artist</h6>
+                </div>
+            </div>
+
+            <div class="all-artist">
+                <div class="item">
+                    <img src="images/Sid.jpg" alt="Sid Sriram"/>
+                    <div class="playbutton">
+                        <button onclick="updateLeftFrame('SS/ss.html')">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <h2>Sid Sriram</h2>
+                    <h6>Artist</h6>
+                </div>
+            </div>
+
+            <div class="all-artist">
+                <div class="item">
+                    <img src="images/VijAn.jpg" alt="Vijay Antony"/>
+                    <div class="playbutton">
+                        <button onclick="updateLeftFrame('VJ/vj.html')">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <h2>Vijay Antony</h2>
+                    <h6>Artist</h6>
+                </div>
+            </div>
+
+            <div class="all-artist">
+                <div class="item">
+                    <img src="images/Shreya.jpg" alt="Shreya Ghoshal"/>
+                    <div class="playbutton">
+                        <button onclick="updateLeftFrame('SG/sg.html')">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <h2>Shreya Ghoshal</h2>
+                    <h6>Artist</h6>
+                </div>
+            </div>
+
+        </div>
+    </header>
+</body>
+</html>
